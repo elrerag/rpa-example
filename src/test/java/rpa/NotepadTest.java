@@ -28,6 +28,7 @@ public class NotepadTest {
 			capabilities.setCapability("app", "C:\\Windows\\System32\\notepad.exe");
 			capabilities.setCapability("platformName", "Windows");
 			capabilities.setCapability("deviceName", "WindowsPC");
+//			notepadSession = new WindowsDriver(new URL("http://10.2.0.15:4723"), capabilities);
 //			notepadSession = new WindowsDriver(new URL("http://127.0.0.1:4723"), capabilities);
 			notepadSession = new WindowsDriver(new URL("http://192.168.0.11:4723/"), capabilities);
 			notepadSession.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);

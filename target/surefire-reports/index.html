@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-rpa_NotepadTest" class="navigator-link">
-              <span class="suite-name border-failed">rpa.NotepadTest</span>
+              <span class="suite-name border-passed">rpa.NotepadTest</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,21 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-rpa_NotepadTest" class="hide-methods failed suite-rpa_NotepadTest"> (hide)</a> <!-- hide-methods failed suite-rpa_NotepadTest -->
-                      <a href="#" panel-name="suite-rpa_NotepadTest" class="show-methods failed suite-rpa_NotepadTest"> (show)</a> <!-- show-methods failed suite-rpa_NotepadTest -->
-                    </span>
-                    <div class="method-list-content failed suite-rpa_NotepadTest">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-rpa_NotepadTest" title="rpa.NotepadTest" class="method navigator-link" hash-for-method="pressTimeAndDateButton">pressTimeAndDateButton</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-rpa_NotepadTest -->
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -117,6 +103,11 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-rpa_NotepadTest" title="rpa.NotepadTest" class="method navigator-link" hash-for-method="checkAboutWindow">checkAboutWindow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-rpa_NotepadTest" title="rpa.NotepadTest" class="method navigator-link" hash-for-method="pressTimeAndDateButton">pressTimeAndDateButton</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -136,50 +127,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-rpa_NotepadTest" class="panel rpa_NotepadTest">
-          <div class="suite-rpa_NotepadTest-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">rpa.NotepadTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="pressTimeAndDateButton">
-                  </a> <!-- pressTimeAndDateButton -->
-                  <span class="method-name">pressTimeAndDateButton</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;MacBook-Pro-de-Luis.local&apos;, ip: &apos;fe80:0:0:0:cdf:a9a5:c350:46fc%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;11.0.9&apos;
-Driver info: io.appium.java_client.windows.WindowsDriver
-Capabilities {app: C:\Windows\System32\notepad..., javascriptEnabled: true, platform: WINDOWS, platformName: Windows}
-Session ID: 627A3587-D397-4F1F-BE26-3BB1606184A7
-*** Element info: {Using=accessibility id, value=26}
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
-	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
-	at io.appium.java_client.windows.WindowsDriver.execute(WindowsDriver.java:1)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
-	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
-	at io.appium.java_client.windows.WindowsDriver.findElement(WindowsDriver.java:1)
-	at io.appium.java_client.FindsByAccessibilityId.findElementByAccessibilityId(FindsByAccessibilityId.java:37)
-	at rpa.NotepadTest.pressTimeAndDateButton(NotepadTest.java:66)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 40 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-rpa_NotepadTest-class-failed -->
           <div class="suite-rpa_NotepadTest-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -191,6 +138,13 @@ Session ID: 627A3587-D397-4F1F-BE26-3BB1606184A7
                   <a name="checkAboutWindow">
                   </a> <!-- checkAboutWindow -->
                   <span class="method-name">checkAboutWindow</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="pressTimeAndDateButton">
+                  </a> <!-- pressTimeAndDateButton -->
+                  <span class="method-name">pressTimeAndDateButton</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -255,22 +209,22 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'pressTimeAndDateButton')
+data.setCell(0, 1, 'checkAboutWindow')
 data.setCell(0, 2, 'rpa.NotepadTest')
-data.setCell(0, 3, 3106);
+data.setCell(0, 3, 1939);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'checkAboutWindow')
+data.setCell(1, 1, 'sendTestText')
 data.setCell(1, 2, 'rpa.NotepadTest')
-data.setCell(1, 3, 1744);
+data.setCell(1, 3, 1009);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'sendTestText')
+data.setCell(2, 1, 'pressTimeAndDateButton')
 data.setCell(2, 2, 'rpa.NotepadTest')
-data.setCell(2, 3, 1258);
+data.setCell(2, 3, 971);
 window.suiteTableData['rpa_NotepadTest']= { tableData: data, tableDiv: 'times-div-rpa_NotepadTest'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 6 seconds</span>
+              <span class="suite-total-time">Total running time: 3 seconds</span>
               <div id="times-div-rpa_NotepadTest">
               </div> <!-- times-div-rpa_NotepadTest -->
             </div> <!-- times-div -->
@@ -303,33 +257,31 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">checkAboutWindow</span>
-                <span class="method-start">1794 ms</span>
+                <span class="method-start">3019 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">cleanApp</span>
-                <span class="method-start">3540 ms</span>
+                <span class="method-start">4960 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">pressTimeAndDateButton</span>
-                <span class="method-start">9391 ms</span>
+                <span class="method-start">5766 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">cleanApp</span>
-                <span class="method-start">12501 ms</span>
+                <span class="method-start">6738 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">sendTestText</span>
-                <span class="method-start">13407 ms</span>
+                <span class="method-start">7809 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">cleanApp</span>
-                <span class="method-start">14666 ms</span>
+                <span class="method-start">8821 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-suite after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">15716 ms</span>
+                <span class="method-start">9905 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

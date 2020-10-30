@@ -7,6 +7,8 @@
         <methods>
           <include name="tearDown"/>
           <include name="setUp"/>
+          <include name="sendTestText"/>
+          <include name="checkAboutWindow"/>
           <include name="pressTimeAndDateButton"/>
           <include name="cleanApp"/>
         </methods>
